@@ -1,3 +1,5 @@
+#N4viya
+
 import socket
 from IPy import IP
 
@@ -36,6 +38,5 @@ if ',' in targets:
         scan(ip_add.strip(''))
 else:
     scan(targets)
-
 
 
